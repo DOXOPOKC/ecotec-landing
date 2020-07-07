@@ -7,7 +7,11 @@ MODE=$2
 set -e
 
 # сборка
-npm run build --mode ${MODE}
+if [[ ${MODE} == 'production' ]]; then
+  npm run build
+else
+  npm run build -- --mode ${MODE}
+fi
 
 # переход в каталог сборки
 cd dist
