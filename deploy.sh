@@ -7,11 +7,7 @@ MODE=$2
 set -e
 
 # сборка
-if [[ ${MODE} == 'production' ]]; then
-  npm run build
-else
-  npm run build -- --mode ${MODE}
-fi
+npm run build
 
 # переход в каталог сборки
 cd dist
@@ -27,7 +23,10 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git tag -a ${TAG} -m 'Version '${TAG}
+if [[ -n ${TAG} ]]; then
+  git tag -a ${TAG} -m 'Version '${TAG}
+fi
+
 
 git push -f git@github.com:DOXOPOKC/ecotec-landing.git master:gh-pages --follow-tags
 
