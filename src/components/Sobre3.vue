@@ -18,7 +18,12 @@
                   :key="i"
                 >
                   <v-list-item-content>
-                    <v-list-item-title v-text="item.text"></v-list-item-title>
+                    <v-list-item-title v-if="item.email">
+                      {{item.text}}
+                      <a href="mailto:glushkov_gv@landfinance.ru">glushkov_gv@landfinance.ru</a>
+                    </v-list-item-title>
+                    <v-list-item-title v-else v-text="item.text">
+                    </v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
               </v-list-item-group>
@@ -55,10 +60,10 @@ export default {
   data: () => ({
     item: 0,
     items: [
-      { text: '1. Свяжитесь с нами по email - glushkov_gv@landfinance.ru', icon: 'mdi-clock' },
-      { text: '2. Мы обговорим задачу и создадим чек-лист', icon: 'mdi-account' },
-      { text: '3. Заведем ваших пользователей для работы в системе', icon: 'mdi-flag' },
-      { text: '4. Совместно запустим и проконтроируем первые этапы работы', icon: 'mdi-flag' },
+      { text: '1. Свяжитесь с нами по email - ', icon: 'mdi-clock', email: true },
+      { text: '2. Мы обговорим задачу и создадим чек-лист', icon: 'mdi-account', email: false },
+      { text: '3. Заведем ваших пользователей для работы в системе', icon: 'mdi-flag', email: false },
+      { text: '4. Совместно запустим и проконтролируем первые этапы работы', icon: 'mdi-flag', email: false },
     ],
   }),
 };
