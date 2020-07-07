@@ -7,7 +7,7 @@
         <v-col cols="12" sm="10" md="8" class="text-center">
           <v-card flat>
             <v-card-title>
-              <h1 class="display-2 font-weight-light my-12 mx-auto">Как использовать:</h1>
+              <h1 class="display-2 font-weight-light my-12 mx-auto">Воспользоваться</h1>
             </v-card-title>
           </v-card>
           <v-card-text class="pa-0 ma-0">

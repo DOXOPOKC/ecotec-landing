@@ -1,7 +1,7 @@
 <template>
   <v-app mx-6>
     <AppNavbar :color="color" :flat="flat" />
-    <AppSidebar />
+    <!-- <AppSidebar /> -->
     <v-main class="pb-0">
       <router-view />
     </v-main>

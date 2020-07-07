@@ -2,7 +2,7 @@
     <v-container fluid class="pa-0 my-12" id="servicos">
       <v-row align="center" justify="center">
         <div class="text-center">
-          <h1 class="display-2 font-weight-light my-12">Типы вопросов:</h1>
+          <h1 class="display-2 font-weight-light my-12">Типы вопросов</h1>
           <!-- <p class="font-weight-regular">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p> -->

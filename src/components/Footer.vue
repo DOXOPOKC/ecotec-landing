@@ -14,8 +14,8 @@
           tile
           class="mx-auto"
         >
-          <v-card-text class="white--text">
-            {{ new Date().getFullYear() }} — <strong>Чеклисты</strong>
+          <v-card-text class="py-1 white--text">
+            {{ new Date().getFullYear() }} — <strong>ООО "УК "ЛЭНД ФИНАНС"</strong>
           </v-card-text>
         </v-card>
       </v-col>

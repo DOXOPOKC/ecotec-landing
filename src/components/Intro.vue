@@ -22,7 +22,7 @@
                 </h1>
               </v-card-title>
               <v-card-text>
-                <h4 class="display-2 white--text">- это гибкая система контроля процессов, сотрудников и задач</h4>
+                <h4 class="display-2 white--text">гибкая система контроля процессов, сотрудников и задач</h4>
               </v-card-text>
               <v-card-actions>
                 <v-spacer></v-spacer>

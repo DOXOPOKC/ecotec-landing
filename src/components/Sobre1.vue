@@ -12,7 +12,7 @@
         </v-col>
         <v-col lg="12" class="justify-center mt-6">
           <v-card>
-            <v-img src="@/assets/img/Reports.png" max-width="1200px" />
+            <v-img src="@/assets/img/photo_2020-07-07_15-41-51.jpg" max-width="1200px" />
           </v-card>
         </v-col>
       </v-row>

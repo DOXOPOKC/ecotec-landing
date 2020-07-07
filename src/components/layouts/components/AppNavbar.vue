@@ -11,12 +11,12 @@
       />
     </div>
     <v-spacer></v-spacer>
-    <v-app-bar-nav-icon
+    <!-- <v-app-bar-nav-icon
       @click.stop="drawer = !drawer"
       class="mr-4"
       v-if="isSm"
-    />
-    <div v-else>
+    /> -->
+    <div v-if="!isSm">
       <v-btn text @click="$vuetify.goTo('#hero', 0, 500)">
         <span class="mr-2">Чеклисты</span>
       </v-btn>

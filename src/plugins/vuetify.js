@@ -10,7 +10,7 @@ export default new Vuetify({
       light: {
         primary: "#11a67c",
         secondary: "#1A1A1A",
-        blue: "#0000ff"
+        blue: "#1565c0"
       },
     },
   },
