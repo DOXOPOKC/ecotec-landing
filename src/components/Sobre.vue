@@ -5,7 +5,7 @@
           <v-img src="@/assets/img/profile_analysis_.svg" max-width="400px" />
         </v-col>
         <v-col cols="12" sm="10" md="8" class="text-center">
-          <h1 class="display-2 font-weight-light my-12">О нас</h1>
+          <h1 class="display-2 font-weight-light my-12">О системе</h1>
           <p class="body-1 text-justify mx-auto" style="max-width: 600px">
             Вы можете заполнять чек-листы как со стационарного ПК так и с мобильного телефона,
             у вас есть 7 типов вопросов с атрибутами ожидаемых ответов, обязательных и необязательных.
